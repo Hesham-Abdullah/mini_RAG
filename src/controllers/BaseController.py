@@ -5,4 +5,3 @@ class BaseController():
         self.app_settings= get_settings()
         self.base_dir= os.path.dirname(os.path.dirname(__file__))
         self.docs_dir= os.path.join(self.base_dir, "assets/Docs") 
-            
