@@ -49,5 +49,5 @@ class DataController(BaseController):
                 doc_path, 
                 rand_id + "_" + cleaned_fname
             )
-        return new_file_name
+        return new_file_name, rand_id + "_" + cleaned_fname
         
